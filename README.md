@@ -78,11 +78,14 @@ I have selected an implemented chatbot to be Benchmark Model [slack bot](https:/
 > 6. **If I have time:** Chatbot could recognize people name in the conversation using [Google API](https://cloud.google.com/natural-language/) then its response depends on the previous conversations about them (maybe I will save the chat history which is related to people and use it to get the response<br>
 
 >**Model Structure:**<br>
+>
 >![alt text](images/model.png "Chatbot Model")
 
 
 >**Model prediction:**<br>
+>
 >![Alt Text](images/chatbot_pred.png)
 
 >**Demo:**<br>
+>
 >![Alt Text](images/chatbot_gif-min.gif)

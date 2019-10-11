@@ -35,6 +35,7 @@ I have selected an implemented chatbot to be Benchmark Model [slack bot](https:/
 > **User Metrics:**<br>
 > 1. Total Users: This is the most basic metric. It captures the number of people using your chatbot. This matter because its trend shows the change in the number of users and therefore the amount of data your chatbot has been exposed to.
 > 2. Active Users: Active users can be defined as the people who read a message in the chatbot in a defined time frame.  
+
 > **Message Metrics:**<br>
 > 3. Conversation Starter Messages: This is the number of messages where you start the interaction by the bot. This critical for measuring the organicness of your platform. It is possible to elicit a response by sending messages to users, but as the time moves forward, companies would need a lower number for that metric.
 > 4. Bot Messages: Bot messages are the total number of messages sent by the chatbot in each interaction. This measures the length of a conversation between a customer and the chatbot. We normally want the number of messages to be high, but there is one critical condition, our chatbot needs to respond correctly. In case of misunderstanding or failure to comprehend the input by the user, the chatbot will say similar words repeatedly.

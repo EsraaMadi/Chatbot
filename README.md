@@ -19,7 +19,7 @@
 > **How to Collect data:**
 > 1. Cornell movie dialogue corpus: is available [here](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html). it contains 2 files, the first file contains all sentences and corresponding ids. The second file contains the sequence of all conversations as ids.
 > 2. Reddit comments : At first,I thought I would use the Python Reddit API Wrapper, but the limits imposed by Reddit on crawling are not the most friendly. To collect bulk amounts of data. Instead, I found a data dump of Reddit Comments separated by month as [JSON files](https://files.pushshift.io/reddit/comments/), after some investigation i found some comments with 1 reply per comment and the other might have many replies, so i decided to go with the top-voted one.
-  - [Collect-training-data-Reddit](https://git.generalassemb.ly/EsraaMadi/capstone/blob/master/part_02/chatbot/code/Collect-training-data-Reddit.ipynb)
+  - [Collect-training-data-Reddit](https://github.com/EsraaMadi/Chatbot/blob/master/code/Collecting%20data/01-Collect-training-data-Reddit.ipynb)
 
 
 ### Solution Statement
@@ -45,8 +45,8 @@ I have selected an implemented chatbot to be Benchmark Model [slack bot](https:/
 >In order to prepare the data for training, we need to use a special script to convert the data to the format which is required in order to train my model.
 >1. Creating Dataset:
     - I need to create 2 files, first file with all questions sentances and the second one with suitable response sentences from both movie data and Reddit data
-      - [Prepare Reddit data for training](https://git.generalassemb.ly/EsraaMadi/capstone/blob/master/part_02/chatbot/code/Training-Data-Files-Reddit.ipynb)
-      - [Prepare Movies data for training](https://git.generalassemb.ly/EsraaMadi/capstone/blob/master/part_02/chatbot/code/Training-Data-Files-Movies.ipynb)
+      - [Prepare Reddit data for training](https://github.com/EsraaMadi/Chatbot/blob/master/code/Collecting%20data/02-ii-Training-Data-Files-Reddit.ipynb)
+      - [Prepare Movies data for training](https://github.com/EsraaMadi/Chatbot/blob/master/code/Collecting%20data/02-i-Training-Data-Files-Movies.ipynb)
     - By the end of this step , I would have 4 files that will be used of the training and testing:
         - train.from, test.from (chatbot input)
         - train.to, test.to (chatbot output)<br>
@@ -61,7 +61,7 @@ I have selected an implemented chatbot to be Benchmark Model [slack bot](https:/
 
 >**Explore the Data:**<br>
 >The two datasets store bunch of sentences , and that is something we don't have to explore for now. I already know how the data looks after preparing it. However, it is worthwhile to explore how complex the datasets are. The complexity could suggest how we should approach to get the right result still considering some of restrictions.
-  - [Explore the Data](https://git.generalassemb.ly/EsraaMadi/capstone/blob/master/part_02/chatbot/code/Explore_Data.ipynb)<br>
+  - [Explore the Data](https://github.com/EsraaMadi/Chatbot/blob/master/code/Collecting%20data/03-Explore_Data.ipynb)<br>
 
 
 >**Modeling:**<br>

@@ -86,6 +86,6 @@ I have selected an implemented chatbot to be Benchmark Model [slack bot](https:/
 >
 >![Alt Text](images/chatbot_pred.png)
 
->**Demo:**<br>
+>**Meh Bot Demo:**<br>
 >
 >![Alt Text](images/chatbot_gif-min.gif)

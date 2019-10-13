@@ -1,6 +1,6 @@
 # Chatbot Project
 
-##  ¯\ _(ツ)_ /¯ Bot Proposal
+##  ¯\ _(ツ)_ /¯ Bot proposal
 
 ### Problem Statement
 > People by nature like to share happiness and sadness moments with each other. Nowadays with the internet and social media, they tend to share every single moment with their followers including foods, places and feeling, literally everything, so they sacrificed with their privacy just to get feedback and compliments from others.  
